@@ -1,0 +1,45 @@
+--- insufficient_permissions
+Вы не являетесь администратором данного чата, поэтому вы не можете использовать данную команду
+--- no_reply_to
+Не могу найти пользователя в ответе. (Вы можете выгонять/банить/предупреждать пользователей только по их ID или ответом на их сообщение)
+--- invalid_id
+Не могу найти данного пользователя в базе данных.
+--- banning_admin
+Вы не можете выгнать/забанить/предупредить данного пользователя, так как он является администратором
+--- was_warned
+<a href="tg://user?id=%(target)s">%(user)s</a> был предупрежден <a href="tg://user?id=%(adminid)s">%(admin)s</a>! (%(current)s/%(max)s)
+Причина: <i>%(reason)s</i>
+
+#warn
+%(warn_id)s
+--- was_banned
+<a href="tg://user?id=%(target)s">%(user)s</a> был забанен <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#ban
+--- was_kicked
+<a href="tg://user?id=%(target)s">%(user)s</a> был выгнан <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#kick
+--- reached_maximum_warns
+<a href="tg://user?id=%(target)s">%(user)s</a> достиг максимального количества предупреждений!
+
+%(warn_id)s
+--- warn_removed
+С пользователя <a href="tg://user?id=%(target)s">%(user)s</a> сняты предупреждения <a href="tg://user?id=%(adminid)s">%(admin)s</a>! (%(current)s/%(max)s)
+
+#unwarn
+--- unbanned
+<a href="tg://user?id=%(target)s">%(user)s</a> был разбанен <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#unban
+--- warns
+Всего предупреждений: %(count)s
+%(warns)s
+--- no_warns
+Предупреждений не найдено!
+--- new_max_warn_count
+Новое максимальное количество предупреждений: %(count)s
+--- current_warn_count
+Текущее максимальное количество предупреждений: %(count)s
+--- warn_count_not_in_range
+Заданное число предупреждений не находится между 2 и 10!

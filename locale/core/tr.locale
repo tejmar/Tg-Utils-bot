@@ -1,0 +1,42 @@
+--- start
+Merhaba, ben %s, çeşitli özelliklere sahip bir telegram botu, daha fazlası için, "komutları özel sohbette listele" butonuna tıkla lütfen.
+--- help_button 
+Komutları Özel Sohbette Listele
+--- news_button
+OctoBot Haber Kanalı
+--- chat_button
+OctoBot Geliştirme/Destek Grubu
+--- message_delete
+Bu mesajı sil
+--- help_find_more
+Daha fazla komutlar hakkında bilgi almak için şu şekilde kullanabilirsin: <pre>/help cash</pre>
+--- chat_banned
+Hey! Admin beni bu gruptan engelledi. Üzgünüm.Çıkıyorum gruptan.
+Reason: %s.
+Bu hata mesajı hakkında daha fazla bilgi almak için bot yapımcısı ile iletişime geçin.
+--- error_occured_please_report
+Üzgünüm, bilinmeyen bir hata sebebi ile birşeyler ters gitti. Neler olduğunu bana gönderebilirsiniz ve sorunun çözümü için uğraşacağız. <a href="%s">destek ve geliştirme chat</a>?
+--- sentry_code
+ Lütfen bu kodu destek grubunda bot yapımsıcına ulaştırın. - <code>%s</code>
+--- not_enough_arguments
+Yeterli argüman bulunamadı.\nLütfen buradaki belgelere bakın: <code>/help %s</code>
+--- unknown_help_command
+Bu komutu henüz bilmiyorum...
+--- not_available
+Mevcut değil
+--- help_button_into_pm_text
+Daha fazla flood olmaması için bu komutu özel mesajda kullanın.
+--- help_button_into_pm
+Komutları özel mesajda listele
+--- delete_success
+Mesaj silindi.
+--- delete_failure
+Bu mesajı silemezsin.
+--- help_format
+%(command)s\Açıklama: <i>%(description)s</i>\nEk bilgi ve özellikler:\n<i>%(docs)s</i>
+--- stop_spamming
+Lütfen sürekli komutlara basarak spam yapmayın.
+--- chat_ignored
+Bu konuşma çok komut spamı gönderildiği için %s dakika boyunca durduruldu.
+--- language_set_ok
+Dil %s olarak ayarlandı.

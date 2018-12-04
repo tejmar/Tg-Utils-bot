@@ -1,0 +1,18 @@
+--- lock_help
+Grubu engelle. (Grup eğer süpergrup ise tüm mesajlar silinecektir. Admin mesajları harici.)
+--- locked_success
+Sohbet engellendi.
+--- locked_fail_already
+Sohbet zaten engelli
+--- locked_fail_no_bot_rights
+Bu grupta admin değilim.
+--- locked_fail_access_denied
+Hey, bu grupta admin değilsin ne oluyor :)
+--- locked_fail_private
+Sadece süpergrubun engelini açabilirim.
+--- unlock_help
+Süpergrup kilidini aç.
+--- unlock_success
+Sohbet açıldı.
+--- unlock_fail_no_lock
+Bu grup zaten engelli.

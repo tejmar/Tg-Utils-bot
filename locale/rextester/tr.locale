@@ -1,0 +1,22 @@
+--- help
+rextester.com dan komut çalıştırabilirsin. (diller list=http://rextester.com/main). İlk kaynak olarak diller için /rextester komutunu kullanın. getlangs yazarak tüm dilleri görebilirsin.
+--- available_langs
+Kullanılabilir Diller:
+<code>%s</code>
+--- not_enough_args
+Yeterli argüman yok. 
+Kullanım: <pre>/rextester python3 print("test")</pre>
+--- unknown_lang
+Bilinmeyen bir dil: <pre>%s</pre>
+--- rextester_problems
+RexTester.com sitesinde bir sorun oluştu. Komutunu şuan çalıştıramıyorum üzgünüm.
+--- result
+Sonuç
+--- warnings
+Uyarılar
+--- errors
+Hatalar
+--- stats
+Durum
+--- source
+Kaynak kod

@@ -1,0 +1,7 @@
+--- help
+Converte la valuta A nella valuta B
+--- currency_template
+%s %s = %s %s
+
+%s %s
+Dati forniti da Yahoo Finance

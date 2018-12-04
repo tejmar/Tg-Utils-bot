@@ -1,0 +1,10 @@
+--- help
+Bir web sitesinin aktif olup olmadığını kontrol eder.
+--- isup_problems
+Bu özellik çalıştırılırken bir sorun oluştru. Bu sitenin aktif olup olmadığını şuan kontrol edemiyorum.
+--- down
+Bu site %s aktif gibi gözükmüyor.
+--- up
+Bu site %s aktif ve capacanlı.
+--- unknown
+Nee? Bu  %s bir web sitesi gibi gözükmüyor. Lütfen yazdığını kontrol et.

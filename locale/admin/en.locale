@@ -1,0 +1,55 @@
+--- insufficient_permissions
+You are not admin of this chat, I can't let you use that command
+--- no_reply_to
+Cant find user in reply. (You can only kick/ban/warn users by their ID or in reply)
+--- invalid_id
+Cant find this user in my database.
+--- banning_admin
+You cant kick/ban/warn this user because he (or she) is an admin
+--- was_warned
+<a href="tg://user?id=%(target)s">%(user)s</a> was warned by <a href="tg://user?id=%(adminid)s">%(admin)s</a>! (%(current)s/%(max)s)
+Reason: <i>%(reason)s</i>
+
+#warn
+%(warn_id)s
+--- was_banned
+<a href="tg://user?id=%(target)s">%(user)s</a> was banned by <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#ban
+--- was_kicked
+<a href="tg://user?id=%(target)s">%(user)s</a> was kicked by <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#kick
+--- reached_maximum_warns
+<a href="tg://user?id=%(target)s">%(user)s</a> reached maximum warns!
+
+%(warn_id)s
+--- warn_removed
+<a href="tg://user?id=%(target)s">%(user)s</a> was unwarned by <a href="tg://user?id=%(adminid)s">%(admin)s</a>! (%(current)s/%(max)s)
+
+#unwarn
+--- unbanned
+<a href="tg://user?id=%(target)s">%(user)s</a> was unbanned by <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#unban
+--- warns
+Warns for %(user)s:
+Total warns: %(count)s
+%(warns)s
+--- no_warns
+No warns found!
+--- new_max_warn_count
+New maximum warn count: %(count)s
+--- current_warn_count
+Current maximum warn count: %(count)s
+--- warn_count_not_in_range
+The given warn count is not in range of 3 and 10!
+--- invalid_user
+It seems like I had never saw this user in any of chats, so I can't ban him due to Telegram Bot API limitations. Sorry!
+--- not_supergroup
+This command works only in supergroups
+--- cant_unwarn
+<a href="tg://user?id=%(target)s">%(user)s</a> can't be unwarned cause he/she doesn't have any warns in this chat
+--- no_target
+No target specified!
+Specify target with reply, username or ID

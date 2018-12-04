@@ -1,0 +1,22 @@
+--- help
+Runs code on rextester.com(language list=http://rextester.com/main). Supply language as first argument. Use /rextester getlangs for list of languages
+--- available_langs
+Available languages:
+<code>%s</code>
+--- not_enough_args
+Not enough arguments. 
+Usage: <pre>/rextester python3 print("test")</pre>
+--- unknown_lang
+Unknown language: <pre>%s</pre>
+--- rextester_problems
+There is some problems with RexTester.com. I can't process your request right now.
+--- result
+Result
+--- warnings
+Warnings
+--- errors
+Errors
+--- stats
+Stats
+--- source
+Source Code

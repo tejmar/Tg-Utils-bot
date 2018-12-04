@@ -1,0 +1,22 @@
+--- help
+Esegue il codice su rextester.com(lista dei linguaggi=http://rextester.com/main). Fornisci il linguaggio come primo argomento. Usa /rextester getlangs per una lista dei linguaggi
+--- available_langs
+Lingue disponibili:
+<code>%s</code>
+--- not_enough_args
+Non ci sono abbastanza argomenti. 
+Utilizzo: <pre>/rextester python3 print("test")</pre>
+--- unknown_lang
+Lingua sconosciuta: <pre>%s</pre>
+--- rextester_problems
+Ci sono dei problemi con RexTester.com. Non posso elaborare la tua richiesta in questo momento.
+--- result
+Risultato
+--- warnings
+Avvertimenti
+--- errors
+Errori
+--- stats
+Statistiche
+--- source
+Codice Sorgente 

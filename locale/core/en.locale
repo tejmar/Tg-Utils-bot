@@ -1,0 +1,47 @@
+--- start
+Hello, I am %s, a Telegram bot with various features, to know more, click on "List commands in PM" button below
+--- help_button 
+Open commands list
+--- news_button
+OctoBot news channel
+--- chat_button
+OctoBot dev/support chat
+--- message_delete
+Delete this message
+--- help_find_more
+You can find more info about command by typing after /help, like this: <pre>/help cash</pre>
+--- chat_banned
+Hi. I am sorry, but my admin/me blocked this chat, so I will leave it.
+Reason: %s.
+Please contact bot admin for unbanning this chat
+--- error_occured_please_report
+I am sorry, unknown error occurred during working with your request. Can you tell what you did to make this happen at <a href="%s">support and development chat</a>?
+--- sentry_code
+ Please also report this code - <code>%s</code>
+--- not_enough_arguments
+Not enough arguments supplied.\nPlease refer to documentation: <code>/help %s</code>
+--- unknown_help_command
+I don't know this command...
+--- not_available
+Not available
+--- help_button_into_pm_text
+To prevent flood, use this command in PM
+--- help_button_into_pm
+List commands in PM
+--- delete_success
+Message deleted
+--- delete_failure
+You can't delete this message
+--- help_format
+%(command)s\nDescription: <i>%(description)s</i>\nAdditional info and examples:\n<i>%(docs)s</i>
+--- stop_spamming
+Stop spamming this command...
+--- chat_ignored
+This conversation would be ignored for %s minutes because of overusing commands
+--- language_set_ok
+Language set to %s
+--- help_on_web
+Due to telegram limitations, it is not possible for me to list all the commands.
+Please open my website to see command list
+--- open_website
+Open Website

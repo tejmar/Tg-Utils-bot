@@ -1,0 +1,10 @@
+--- help
+Check if site is up
+--- isup_problems
+There is some problems with isup.me. I cant provide you info on this site right now, sorry.
+--- down
+It's not just you! %s looks down from here.
+--- up
+It's just you. %s is up
+--- unknown
+Huh? %s doesn't look like a site on the interwho.

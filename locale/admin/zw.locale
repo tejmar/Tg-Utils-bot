@@ -1,0 +1,45 @@
+--- insufficient_permissions
+Non sei admin di questa chat, dunque non puoi bannare questo utente
+--- no_reply_to
+Utente non trovato. (Puoi fare kick/ban/ammonizioni agli utenti tramite il loro ID o in risposta ad un messaggio)
+--- invalid_id
+Questo utente non si trova nel mio database.
+--- banning_admin
+Non puoi fare kick/ban/ammonizioni a questo utente poiché è admin
+--- was_warned
+<a href="tg://user?id=%(target)s">%(user)s</a> è stato ammonito da <a href="tg://user?id=%(adminid)s">%(admin)s</a>! (%(current)s/%(max)s)
+Motivo: <i>%(reason)s</i>
+
+#warn
+%(warn_id)s
+--- was_banned
+<a href="tg://user?id=%(target)s">%(user)s</a> è stato bannato da <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#ban
+--- was_kicked
+<a href="tg://user?id=%(target)s">%(user)s</a> è stato kickato da <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#kick
+--- reached_maximum_warns
+<a href="tg://user?id=%(target)s">%(user)s</a> ha raggiunto il limite di ammonizioni!
+
+%(warn_id)s
+--- warn_removed
+<a href="tg://user?id=%(target)s">%(user)s</a> è stato de-ammonito da <a href="tg://user?id=%(adminid)s">%(admin)s</a>! (%(current)s/%(max)s)
+
+#unwarn
+--- unbanned
+<a href="tg://user?id=%(target)s">%(user)s</a> è stato sbannato da <a href="tg://user?id=%(adminid)s">%(admin)s</a>!
+
+#unban
+--- warns
+Ammonizioni totali: %(count)s
+%(warns)s
+--- no_warns
+Nessuna ammonizione!
+--- new_max_warn_count
+Nuovo numero massimo di warn: %(count)s
+--- current_warn_count
+Numero massimo di warn corrente: %(count)s
+--- warn_count_not_in_range
+Il numero non è compreso tra 3 e 10!

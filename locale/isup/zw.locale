@@ -1,0 +1,10 @@
+--- help
+Controlla se il sito è attivo o no taaac
+--- isup_problems
+Figa c'ho problemi nel contattare isup.me. Come cazzo posso sapere se va il sito allora?
+--- down
+Ah carino è la tua rete! %s sembra inattivo da qui.
+--- up
+Sono cazzi tuoi. %s è attivo.
+--- unknown
+Eh? %s non sembra esistere cioè se non bruci i siti sei un coglione.

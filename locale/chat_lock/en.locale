@@ -1,0 +1,18 @@
+--- lock_help
+Lock supergroup.(removes all new messages, except messages from admin)
+--- locked_success
+Chat locked.
+--- locked_fail_already
+Chat is already blocked
+--- locked_fail_no_bot_rights
+I am not admin here...
+--- locked_fail_access_denied
+Hey! You are not admin of this chat
+--- locked_fail_private
+You can unlock only supergroups
+--- unlock_help
+Unlocks supergroup
+--- unlock_success
+Chat unlocked.
+--- unlock_fail_no_lock
+This chat wasn't locked at all

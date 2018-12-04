@@ -1,0 +1,10 @@
+--- help
+Controlla se il sito è attivo o no
+--- isup_problems
+Sto avendo problemi nel contattare isup.me. Non posso darti informazioni riguardo al sito, mi dispiace.
+--- down
+Non è un problema solo tuo! %s sembra inattivo da qui.
+--- up
+E' un problema tuo. %s è attivo.
+--- unknown
+Eh? %s non sembra esistere.

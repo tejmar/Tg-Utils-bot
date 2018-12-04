@@ -1,0 +1,40 @@
+--- start
+Ciao, io sono %s, un bot Telegram con varie funzioni, per saperne di più, clicca su "Lista dei comandi in PM"
+--- help_button 
+Lista dei comandi in privato
+--- news_button
+Canale News di OctoBot
+--- chat_button
+Chat di supporto e sviluppo di OctoBot
+--- message_delete
+Elimina questo messaggio
+--- help_find_more
+Puoi ottenere più informazioni sui comandi digitando /help prima del comando, così: <pre>/help cash</pre>
+--- chat_banned
+Ciao. Mi dispiace, ma il mio amministratore/me ha bloccato questa chat, dunque me ne andrò.
+Motivo: %s.
+Per favore contattare l'amministratore del bot per sbannare questa chat
+--- error_occured
+Mi dispiace, un errore non identificato è avvenuto nell'elaborazione della tua richiesta, l'amministratore provvederà a risolvere
+--- not_enough_arguments
+Non ci sono abbastanza argomenti. Fai riferimento alle informazioni: <code>/help %s</code>
+--- unknown_help_command
+Non conosco questo comando...
+--- not_available
+Non disponibile
+--- help_button_into_pm_text
+Per prevenire il flood, usa questo comando in privato
+--- help_button_into_pm
+Lista dei comandi in privato
+--- delete_success
+Messaggio eliminato
+--- delete_failure
+Non puoi eliminare questo messaggio
+--- help_format
+%(command)s\nDescrizione: <i>%(description)s</i>\nUlteriori informazioni ed esempi:\n<i>%(docs)s</i>
+--- stop_spamming
+Smetti di spammare questo comando...
+--- chat_ignored
+Questa conversazione sarà ignorata per %s minuti per abuso di comandi
+--- language_set_ok
+Lingua impostata su %s

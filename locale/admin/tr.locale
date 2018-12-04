@@ -1,0 +1,49 @@
+--- insufficient_permissions
+Bu grupta admin değilsin. Bu komutu kullanmana izin veremem maalesef.
+--- no_reply_to
+Yanıtladığın kullanıcıyı bulamıyorum. (Banlamak için aynı zamanda kullanıcı kimliği yani id ile veya kullanıcı adı ile yapabilirim.)
+--- invalid_id
+Benim verilerimde bu kullanıcı yok.
+--- banning_admin
+Bu kullanıcıyı banlayamam, bu kullanıcı admindir.
+--- was_warned
+Bu kullanıcı ( <a href="tg://user?id=%(target)s">%(user)s</a> ) yönetici ( <a href="tg://user?id=%(adminid)s">%(admin)s</a> ) tarafından uyarıldı! (%(current)s/%(max)s)
+Sebep: <i>%(reason)s</i>
+
+#warn
+%(warn_id)s
+--- was_banned
+Bu kullanıcı ( <a href="tg://user?id=%(target)s">%(user)s</a> ) yönetici ( <a href="tg://user?id=%(adminid)s">%(admin)s</a> ) tarafından banlandı! 
+
+
+#ban
+--- was_kicked
+Bu kullanıcı ( <a href="tg://user?id=%(target)s">%(user)s</a> ) yönetici ( <a href="tg://user?id=%(adminid)s">%(admin)s</a> ) tarafından gruptan atıldı! 
+
+
+#kick
+--- reached_maximum_warns
+Bu kullanıcı ( <a href="tg://user?id=%(target)s">%(user)s</a> ) maksimum uyarıya ulaştığı için gruptan çıkarıldı.!
+
+%(warn_id)s
+--- warn_removed
+Bu kullanıcının ( <a href="tg://user?id=%(target)s">%(user)s</a> ) uyarıları admin  ( <a href="tg://user?id=%(adminid)s">%(admin)s</a> ) tarafından silindi! (%(current)s/%(max)s)
+
+#unwarn
+--- unbanned
+Bu kullanıcının ( <a href="tg://user?id=%(target)s">%(user)s</a> ) engeli admin  ( <a href="tg://user?id=%(adminid)s">%(admin)s</a> ) tarafından kaldırıldı!
+
+#unban
+--- warns
+Toplam uyarılar: %(count)s
+%(warns)s
+--- no_warns
+Uyarı bulunamadı
+--- new_max_warn_count
+Yeni maksimum sınır: %(count)s
+--- current_warn_count
+Şuanki maksimum sınır: %(count)s
+--- warn_count_not_in_range
+Uyarı sayacını 3 ile 10 arasında ayarlayabilirsin.!
+--- invalid_user
+Bu kullancı grupta değil gibi, bu yüzden telegram ayarları nedeni ile bu kullanıcıyı engelleyemiyorum.!

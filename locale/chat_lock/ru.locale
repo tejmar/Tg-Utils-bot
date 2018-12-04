@@ -1,0 +1,18 @@
+--- lock_help
+Заблокировать супергруппу. (removes all new messages, except messages from admin)
+--- locked_success
+Чат заблокирован.
+--- locked_fail_already
+Чат уже заблокирован
+--- locked_fail_no_bot_rights
+Я не являюсь администратором в данном чате...
+--- locked_fail_access_denied
+Эй! Вы не являетесь администратором чата
+--- locked_fail_private
+Вы можете разблокировать только супергруппы
+--- unlock_help
+Разблокирует супергруппу
+--- unlock_success
+Чат разблокирован.
+--- unlock_fail_no_lock
+Этот чат не был заблокирован

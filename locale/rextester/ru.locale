@@ -1,0 +1,22 @@
+--- help
+Запускает код на rextester.com (список языков=http://rextester.com/main). Напишите язык первым аргументом. Используйте /rextester getlangs для списка языков
+--- available_langs
+Доступные языки:
+<code>%s</code>
+--- not_enough_args
+Недостаточно аргументов. 
+Использование: <pre>/rextester python3 print("test")</pre>
+--- unknown_lang
+Неизвестный язык: <pre>%s</pre>
+--- rextester_problems
+С сайтом RexTester.com какие-то проблемы. Я не могу обработать ваш запрос прямо сейчас.
+--- result
+Результат:
+--- warnings
+Предупреждения
+--- errors
+Ошибки
+--- stats
+Статистика
+--- source
+Исходный код

@@ -1,0 +1,18 @@
+--- lock_help
+We ma blocca la chat
+--- locked_success
+Chat bloccata, taaaaaaaaac figa.
+--- locked_fail_already
+La chat è già stata bloccata, ALLORA COSA MI FAI PERDERE TEMPO?
+--- locked_fail_no_bot_rights
+Non sono adddmiinnn di questa chat scemotto...
+--- locked_fail_access_denied
+AJO! Tu non sei amministratore di questa chat! Cumu cazzo ti permetti?!
+--- locked_fail_private
+Non posso bloccare dei non-supergruppi
+--- unlock_help
+Sblocca la chat daje
+--- unlock_success
+Chat sbloccata, taaaaaac.
+--- unlock_fail_no_lock
+Questa chat non è mai stata bloccata, cioè, ma dove vivi, su Marte?

@@ -1,0 +1,18 @@
+--- lock_help
+Blocca la chat.(rimuove tutti i nuovi messaggi, eccetto quelli degli amministratori)
+--- locked_success
+Chat bloccata.
+--- locked_fail_already
+La chat è già stata bloccata
+--- locked_fail_no_bot_rights
+Non sono amministratore di questa chat...
+--- locked_fail_access_denied
+Ehi! Tu non sei amministratore di questa chat!
+--- locked_fail_private
+Non posso bloccare dei non-supergruppi
+--- unlock_help
+Sblocca la chat
+--- unlock_success
+Chat sbloccata.
+--- unlock_fail_no_lock
+Questa chat non è mai stata bloccata

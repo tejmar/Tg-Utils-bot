@@ -1,0 +1,40 @@
+--- start
+We %s, taac sono un bot taac, bella lì clicca sul bottone sotto figa
+--- help_button 
+Lista dei commands in PM taaac
+--- news_button
+Canale News di OctoBot cioè bordello
+--- chat_button
+Chat di OctoBot e se non bruci la banca sei un coglione
+--- message_delete
+D i s i n t e g r a il messaggio figa
+--- help_find_more
+Digita un po' /help prima del comando, così: <pre>/help cash</pre>, taaaac figa
+--- chat_banned
+WEEEEEEEE suca il mio amministratore/me ha bloccato questa chat, dunque me ne andrò.
+Motivo: %s.
+Per favore contattare l'amministratore del bot per sbannare questa chat cioè figa bordello
+--- error_occured
+C'è qualquadra che non cosa, l'amministratore provvederà a risolvere
+--- not_enough_arguments
+WE ALOLA GLI ARGOMENTI. Fai riferimento alle informazioni: <code>/help %s</code>
+--- unknown_help_command
+Ma non dire minchiate...
+--- not_available
+Non disponibile
+--- help_button_into_pm_text
+Testina di caz, usa questo comando in privato
+--- help_button_into_pm
+Ma la lista dei comandi dove sta? In privato, testina!
+--- delete_success
+Taaaaaaaaaaac, messaggio eliminato
+--- delete_failure
+Weeee belli sti permessi
+--- help_format
+%(command)s\nDescrizione: <i>%(description)s</i>\nUlteriori informazioni ed esempi:\n<i>%(docs)s</i>
+--- stop_spamming
+FATE TROPPO BORDELLO
+--- chat_ignored
+Questa conversazione sarà ignorata per %s minuti per troppo chaos cioè figa
+--- language_set_ok
+Lingua impostaaaac su %s

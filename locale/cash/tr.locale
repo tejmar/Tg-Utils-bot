@@ -1,0 +1,7 @@
+--- help
+A para birimini B para birimine dönüştürür.
+--- currency_template
+%s %s = %s %s
+
+%s %s
+Yahoo Finans kaynaktır.
