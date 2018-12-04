@@ -1,0 +1,55 @@
+image: python:latest
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+before_script:
+  - apt-get update -qq && apt-get install -y -qq sshpass
+
+stages:
+  - test
+  - deploy
+  - report
+
+Test core:
+  stage: test
+  before_script:
+    - python3 -m pip install https://gitlab.com/OctoNezd/autogram/-/jobs/100648243/artifacts/raw/dist/Autogram-1.0-py3-none-any.whl
+    - python3 -m pip install -r requirements.txt
+    - python3 -m pip install -r requirements_tests.txt
+    - cp settings_example.py settings.py
+    - mkdir plugdata
+  script:
+    - python3 -m pytest --cov=. tests/test_modloader.py
+
+Check locale file validness:
+  stage: test
+  script:
+    - cd locale
+    - python3 check_valid.py
+
+Deploy to unstable:
+  stage: deploy
+  environment: Unstable
+  only:
+    - autogram
+  script:
+    - rm -f settings.py
+    - sshpass -V
+    - export SSHPASS=$SSH_PASS 
+    - sshpass -e ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_SERVER git -C /home/$SSH_USER/alter_ego pull
+    - sshpass -e ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_SERVER git -C /home/$SSH_USER/alter_ego submodule update
+    - sshpass -e ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_SERVER systemctl --user restart alter_ego
+
+Deploy to stable:
+  stage: deploy
+  environment: Stable
+  only:
+    - python-telegram-bot
+  script:
+    - rm -f settings.py
+    - rm -rf htmlcov
+    - sshpass -V
+    - export SSHPASS=$SSH_PASS 
+    - sshpass -e ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_SERVER git -C /home/$SSH_USER/octobot pull
+    - sshpass -e ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_SERVER git -C /home/$SSH_USER/octobot submodule update
+    - sshpass -e ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_SERVER systemctl --user restart aigis
+

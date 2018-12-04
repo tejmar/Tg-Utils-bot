@@ -1,0 +1,14 @@
+python-telegram-bot
+praw
+requests
+xmltodict
+pillow
+emoji
+gtts
+bs4
+PyLyrics
+flask
+raven
+pendulum
+bitmath
+mongoengine

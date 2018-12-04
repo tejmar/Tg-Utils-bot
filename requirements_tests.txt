@@ -1,0 +1,5 @@
+pytest
+pytest-cov
+hypothesis
+pepper8
+pycodestyle

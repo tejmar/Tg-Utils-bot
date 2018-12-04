@@ -1,0 +1,12 @@
+[submodule "plugins"]
+	path = plugins
+	url = ../OctoBotPlugins.git
+	branch = master
+[submodule "core"]
+	path = core
+	url = ../OctoBotCore.git
+	branch = master
+[submodule "locale"]
+	path = locale
+	url = ../OctoBotLocales.git
+	branch = master
